@@ -1,0 +1,14 @@
+def function1():
+    """Hy there i am asrar ul haq i am practicing python"""
+    print("you are in function 1")
+
+def average(a,b):
+    """this is doc string here you can use this only if you have three numbers"""
+    return(a+b)/2
+
+
+a=function1()
+print(function1.__doc__)
+print("entering into function average")
+print(average(4,5))
+print(average.__doc__)
